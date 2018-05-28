@@ -1,0 +1,115 @@
+<!DOCTYPE html >
+<html lang="en" >
+<head>
+<title>Amazon Go Shopping</title>
+<meta name="author" content="Mansoor Ilyas" />
+<meta charset="utf-8" />
+
+
+<link href="staff.css" rel="stylesheet" type="text/css" />
+
+
+<style>
+h1{
+		font-family:Arial Unicode MS;
+		color:rgb(255, 153, 0);
+		text-align:center;
+}
+body{
+		font-weight: normal;
+   		font-size: 16px;
+   		margin: 0px auto;
+   		position: relative;
+}
+fieldset	{
+		width:40%;
+}
+
+label {
+		display:block;
+        line-height:2em
+}
+
+p{
+	font-size:1.2em
+}
+
+</style>
+</head>
+    
+<body onload="startup()">
+
+<header>
+<h1 id=Top>Contact Us!</h1>
+</header>
+    
+<nav>
+	<ul>
+		<li><a href="Staff.html">Home</a></li>
+		<li><a href="team.html">Team</a></li>
+		<li><a href="aisle.html">Aisle</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>	
+</nav>
+
+<p style="clear: left">
+<img src="images/contactUs.gif"  style="float:right" alt="Contact"/>
+Have questions? Tell us about your visit! and write us about suggestions!
+</p>
+<form name="Contact" method="post" action="http://ftp.sunyrockland.edu/~laaron/form-processor.php">
+<fieldset>
+<legend class=eg>Contact Us!</legend>
+<label>First Name *<input type="text" name="fname" size="12" maxlength="12" autofocus="autofocus" /> </label>
+<label>Last Name *<input type="text" name="lname" size="12" maxlength="12" /> </label>
+<label for="street">Street address</label>
+	<input name="street" id="street" />
+			
+<label for="city">City</label>
+	<input name="city" id="city" value="New City"/>
+			
+<label for="state">State</label>
+	<input name="state" id="state" value="NY" />
+			
+<label for="zip">Postal code</label>
+	<input name="zip" id="zip" placeholder="nnnn (-nnnn)" 
+	pattern="^\d{5}(\-\\d{4})?$"/>
+			
+<label for="phone">Phone number</label>
+	<input name="phone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn"
+	pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+					
+<label for="email">E-mail *</label>
+	<input name="email" id="email" type="email" required="required"/>
+
+<p class="leg">Please Select the Option!</p>
+  <input type="radio" name="option" value="range1" checked> Information<br>
+  <input type="radio" name="option" value="range2"> Review<br>
+  <input type="radio" name="option" value="range3" > Inquire<br>
+<p>
+<input type="Submit" />
+<input type="Reset" />
+</p>
+
+</fieldset>
+</form>
+
+<footer>
+<address>
+      <p style="text-decoration:underline;font-style:italic; color:white;">To look up our store locations around US, Visit us at<br />
+            amazongo &nbsp;&#9728;&nbsp;
+            Amazon&#9728;&nbsp;
+            Amazon Ave &nbsp;&#9728;&nbsp;
+            NY &nbsp;&#9728; Zip 00000&nbsp;&#9728;845-000-0000
+	or Contact <a href="mailto:milyas@sunyrockland.edu">us</a></p>
+     <p><a href="#Top" style=color:red> Go to Top of The Page</a> </p>
+            
+</address>
+<p>&copy;&nbsp;&nbsp;&nbsp;2018</p>
+
+</footer>
+
+
+
+<script src="contact.txt"></script>
+</body>
+</html>

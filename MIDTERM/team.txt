@@ -1,0 +1,25 @@
+function startup() {
+    //adding highlights
+ addMouseListeners();
+}
+function addMouseListeners() {
+   //getting the list of tags named "p"
+    // all the names are in p tags
+    var ps = document.getElementsByTagName("p");
+    //loop through the ps
+    for (var i = 0; i < ps.length; i++) {
+        // adding listeners for the onmouseover
+        // and onmouseout events.
+        ps[i].onmouseover = mover;
+        ps[i].onmouseout = mout;
+ }
+}
+    //creating event handlers. 
+    function mover(e) {
+        //mess with css
+        e.target.style.backgroundColor = "#AAF";
+    }
+function mout(e) {
+    //mess with css
+    e.target.style.backgroundColor = "#FFF";
+}

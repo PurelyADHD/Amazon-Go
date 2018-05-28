@@ -1,0 +1,147 @@
+
+<!doctype html>
+<html>
+<head>
+<meta name="author" content="Mansoor Ilyas" />
+<meta charset="UTF-8">
+<title>Amazon Go Shopping</title>
+
+	<link href="staff.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="ism/css/my-slider.css"/>
+	<script src="ism/js/ism-2.2.min.js"></script>
+
+
+<style>
+    
+h1{
+	font-family:Arial Unicode MS;
+	font-size: 100px;
+	color:rgb(255, 153, 0);
+	text-align:center;
+}
+    
+div{	
+	margin-left:auto;
+	margin-right:auto;
+}
+
+</style>
+</head>
+
+<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="3000" id="my-slider">
+  <ol>
+    <li>
+      <img src="ism/image/slides/_u/1520291858246_828629.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1520291858450_812787.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1520291858427_891674.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1520291858372_16546.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1520291858382_977620.jpg">
+    </li>
+    <li>
+      <img src="ism/image/slides/_u/1520291858357_746331.jpg">
+     
+    </li>
+  </ol>
+</div>
+
+<h1 id=Top>Amazon Go Grocery Shopping</h1>
+
+<nav>
+	<ul>
+		<li><a href="Staff.html">Home</a></li>
+		<li><a href="team.html">Team</a></li>
+		<li><a href="aisle.html">Aisle</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>	
+</nav>
+
+
+<body onLoad="startup()">
+    
+<script type="text/javascript">
+function jumpto(x)
+{
+if (document.form1.jumpmenu.value != "null") {
+    document.location.href = x
+    }
+}
+    
+</script>
+
+<h2 style="color: red; text-align: center"><br />Our Mission<br />"Our vision is to be earth's most customer-centric company; to build a place where people can come to find and discover anything they might want to buy online."</h2>
+    
+ <h2 style="text-align: center"><br /><br /><b>What is Amazon Go?</b><br />Amazon Go is a new kind of store with no checkout required. We created the world’s most advanced shopping technology so you never have to wait in line. With our Just Walk Out Shopping experience, simply use the Amazon Go app to enter the store, take the products you want, and go! No lines, no checkout. (No, seriously.)</h2>
+
+<h2 style="text-align: center"><br /><br /><b>How does Amazon Go work?</b><br />Our checkout-free shopping experience is made possible by the same types of technologies used in self-driving cars: computer vision, sensor fusion, and deep learning. Our Just Walk Out Technology automatically detects when products are taken from or returned to the shelves and keeps track of them in a virtual cart. When you’re done shopping, you can just leave the store. Shortly after, we’ll send you a receipt and charge your Amazon account.</h2>
+    
+<h2 style="text-align: center"><br /><br /><b>What can I buy at Amazon Go?</b><br />We offer delicious ready-to-eat breakfast, lunch, dinner, and snack options made by our chefs and favorite local kitchens and bakeries. Our selection of grocery essentials ranges from staples like bread and milk to artisan cheeses and locally made chocolates. For a quick home-cooked dinner, pick up one of our chef-designed Amazon Meal Kits, with all the ingredients you need to make a meal for two in about 30 minutes.</h2>
+
+<h2 style="text-align: center"><br /><br /><b>How do I shop at Amazon Go?</b><br />All you need is an Amazon account, the free Amazon Go app, and a recent-generation iPhone or Android phone. You can find the Amazon Go app on the Apple App Store, Google Play, and Amazon Appstore. <br />
+
+When you arrive, use the app to enter the store, then feel free to put your phone away—you don’t need it to shop. Then just browse and shop like you would at any other store. Once you’re done shopping, you’re on your way! No lines, no checkout. 
+</h2>
+    
+<h2 style="text-align: center"><br /><br /><b>When can I visit?</b><br />We're open 7AM—9PM, Monday through Friday.</h2>
+    
+
+
+
+<h2>
+<form name="form1">
+<fieldset style="text-align: center"><legend>Online Website menu</legend>
+<select name="jumpmenu" onChange="jumpto(document.form1.jumpmenu.options[document.form1.jumpmenu.options.selectedIndex].value)">
+<option>Our Affiliate Websites...</option>
+<option value="http://www.amazon.com/">Amazon</option>
+<option value="http://www.amazongo.com/">A Fan Website</option>
+<option value="http://www.audible.com/">Audible</option>
+<option value="http://www.twitch.com">Twitch</option>
+</select>
+</fieldset>
+</form>
+</h2>
+    
+<h3>
+<p>The push appends a new element to an array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var meTies = ["KentaBlue ", "GreenRain ", "RedApple ", "ClayDirt "];
+document.getElementById("demo").innerHTML = meTies;
+
+function myFunction() {
+    meTies.push("LemonRine");
+    document.getElementById("demo").innerHTML = meTies;
+}
+</script>
+</h3>
+
+
+<footer>
+    
+<address>
+      <p style="text-decoration:underline;font-style:italic; color:white;">To look up our store locations around US, Visit us at<br />
+            amazongo &nbsp;&#9728;&nbsp;
+            Amazon&#9728;&nbsp;
+            Amazon Ave &nbsp;&#9728;&nbsp;
+            NY &nbsp;&#9728; Zip 00000&nbsp;&#9728;845-000-0000
+	or Contact <a href="mailto:milyas@sunyrockland.edu">us</a></p>
+     <p><a href="#Top" style=color:red> Go to Top of The Page</a> </p>
+            
+</address>
+<p>&copy;&nbsp;&nbsp;&nbsp;2018</p>
+
+</footer>
+
+</body>
+</html>

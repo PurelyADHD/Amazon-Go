@@ -1,0 +1,94 @@
+<!DOCTYPE html >
+<html lang="en" >
+<head>
+<title>Amazon Go Shopping</title>
+<meta name="author" content="Mansoor Ilyas" />
+<meta charset="utf-8" />
+
+
+<link href="staff.css" rel="stylesheet" type="text/css" />
+<script src="aisle.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+
+
+<style>
+h1{
+		font-family:Arial Unicode MS;
+		color:rgb(255, 153, 0);
+		text-align:center;
+}
+body{
+		font-weight: normal;
+   		font-size: 16px;
+   		margin: 0px auto;
+   		position: relative;
+}
+fieldset	{
+		width:40%;
+}
+
+label {
+		display:block;
+        line-height:2em
+}
+
+p{
+	font-size:1.2em
+}
+
+</style>
+</head>
+    
+<body onload="startup()">
+
+<header>
+<h1 id=Top>Contact Us!</h1>
+</header>
+    
+<nav>
+	<ul>
+		<li><a href="Staff.html">Home</a></li>
+		<li><a href="team.html">Team</a></li>
+		<li><a href="aisle.html">Aisle</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+	</ul>	
+</nav>
+    
+<br />
+<p>
+In order to make our store as convenient as possible for you, just enter one of the example items, and we will tell you what aisle it will be available in!
+</p>
+    
+<br /><br />
+<h2>
+We try to carry most essential items for you, so that way your shopping experience will be quick and easy!
+</h2>
+
+<div dojoType="dojo.data.ItemFileReadStore" data="storeData" jsId="foodStore"></div>
+<div dojoType="dijit.form.Button" jsId="button">Click to find the spices!</div>
+<br>
+<br>
+<span id="list">
+</span>
+
+
+<footer>
+<address>
+      <p style="text-decoration:underline;font-style:italic; color:white;">To look up our store locations around US, Visit us at<br />
+            amazongo &nbsp;&#9728;&nbsp;
+            Amazon&#9728;&nbsp;
+            Amazon Ave &nbsp;&#9728;&nbsp;
+            NY &nbsp;&#9728; Zip 00000&nbsp;&#9728;845-000-0000
+	or Contact <a href="mailto:milyas@sunyrockland.edu">us</a></p>
+     <p><a href="#Top" style=color:red> Go to Top of The Page</a> </p>
+            
+</address>
+<p>&copy;&nbsp;&nbsp;&nbsp;2018</p>
+
+</footer>
+
+
+
+<script src="contact.txt"></script>
+</body>
+</html>
